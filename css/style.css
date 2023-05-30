@@ -209,19 +209,66 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  color: #7389DD;
+  font-size: 16px;
+}
 
+.col-content1 {
+  padding-top: 40px;
+  padding-left: 20px;
+  line-height: 30px;
+
+}
+
+.italian-flag {
+  width: 18px;
+  height: 12px;
+}
+
+.language {
+  color: white;
+  font-size: smaller;
+}
+
+.selector-language {
+  color: white;
+}
+
+.box-icons {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+h5 {
+  color: #718ADA;
+}
+
+.product-list {
+  list-style: none;
+  color: white;
+  font-size: small;
+  line-height: 30px;
+
+}
+
+.col h5 {
+  padding-top: 40px;
+}
+
+.col .product-list {
+  padding-top: 10px;
+}
 
 footer .col {
-  border: 1px dashed white;
   flex-grow: 1;
-  background-color: #20b2aa;
-  min-height: 300px;
+  background-color: #23272A;
+  min-height: 300px; 
 }
 
 footer .col-large {
   width: 15%;
-  background-color: #f08080;
-  border-color: black;
+  background-color: #23272A;
 }
 
 footer hr {
