@@ -116,7 +116,6 @@ h1 {
   width: 8rem;
   height: 35px;
   background-color: white;
-  text-align: center;
   margin-top: 20px;
 }
 
@@ -130,7 +129,7 @@ h1 {
   margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  
+
 }
 
 .row {
@@ -139,25 +138,78 @@ h1 {
 
 .col-large,
 .col-small {
-  border: 1px dashed black;
   min-height: 300px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 .col-large {
-  width: 60%;
-  background-color: #1e90ff;
+  width: 70%;
 }
 
 .col-small {
   width: 40%;
-  background-color: #ffc0cb;
+}
+
+.col-small h2 {
+  padding-top: 30px;
+}
+
+.col-small p {
+  padding-top: 20px;
 }
 
 .box-green {
-  border: 1px dashed black;
   min-height: 500px;
-  background-color: #228b22;
 }
+
+.box-green h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.box-green p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.box-green .img-item4 {
+  padding: 40px;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  min-height: 3rem;
+  width: 350px;
+}
+
+.box-stars h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btn-cyan {
+  background-color: #7288DA;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  width: 8rem;
+  height: 35px;
+  margin-top: 20px;
+}
+
+.box-cta {
+  text-align: center;
+}
+
+
 
 footer .col {
   border: 1px dashed white;
