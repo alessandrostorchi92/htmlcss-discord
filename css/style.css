@@ -277,15 +277,26 @@ footer hr {
 }
 
 .secondary-footer {
-  background-color: #7fffd4;
+  background-color: #23272A;
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
 }
 
+.footer-btn {
+  text-align: center;
+}
+
+.signup-btn {
+  background-color: #718ADA;
+  width: 80px;
+  height: 35px;
+  color: white;
+}
+  
+
 .footer-logo,
 .footer-btn {
-  border: 1px dashed black;
+
   padding: 0.5rem;
-  background-color: #FFB6C1;
 }
